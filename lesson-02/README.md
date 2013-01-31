@@ -1,6 +1,5 @@
 web-programming-spring-2013
 =================
 
-SRJC CS53.11B Section 5250
+index.php is a commented version of the exercise we completed in class on January 23 and January 30, 2013.     
 
-This is a template repository for Santa Rosa Junior College students.    Clone this repository into your account 
