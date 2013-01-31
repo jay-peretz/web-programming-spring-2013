@@ -31,7 +31,7 @@ if ($age > 21) {
     <?php
 }
 } else {
-	// if there wasn't a POST, display an input form
+	// if there wasn't a POST, display an input form  using an input type of date - which is supported in Chrome
 	?>
 	<form action="" method="post">
 	<input name="birthdate" type="date">
