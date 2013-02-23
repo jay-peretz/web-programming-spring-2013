@@ -15,6 +15,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="lib/paper.js"> </script>
+     <script type="text/javascript" src="send-contact.js"> </script>
     <script type="text/paperscript" src="waves.js" canvas="canvas"> </script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -49,7 +50,7 @@
               <ul class="nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a  data-toggle="modal" data-target="#aboutus">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a  data-toggle="modal" data-target="#contactus">Contact</a></li>
                 
                 
               </ul>
@@ -181,6 +182,27 @@
     <a href="#" class="btn" data-dismiss="modal" >Close</a>
   </div>
 </div>
+
+<div id="contactus" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Let Us Know How We Can Help</h3>
+  </div>
+  <div class="modal-body">
+   <div class="row"><p class="span2">Name</p><input type="text" id="customername" class="span4" /></div>
+    <div class="row"><p class="span2">Email</p><input type="email" id="customeremail" class="span4" /></div>
+     <div class="row"><p class="span2">Phone</p><input type="tel" id="customertel" class="span4" /></div>
+    <div class="row"><p class="span2">Mowing</p><input type="checkbox"  class="span4 services" value="mowing" /></div>
+    <div class="row"><p class="span2">Trimming</p><input type="checkbox"  class="span4 services" value="trimming" /></div>
+    <div class="row"><p class="span2">Irrigation</p><input type="checkbox"  class="span4 services" value="irrigation" /></div>
+   
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal" >Close</a>
+     <a href="#" class="btn btn-primary" data-dismiss="modal" id="send-contact" >Send</a>
+  </div>
+</div>
+
     </div><!-- /.container -->
  <canvas id="canvas"></canvas>
 
